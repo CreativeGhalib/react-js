@@ -1,5 +1,5 @@
-export default function ToDo() {
+export default function ToDo({task}) {
   return (
-    <li>Task</li>
+    <li>Task: {task}</li>
   );
 }

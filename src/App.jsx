@@ -4,9 +4,9 @@ import ToDo from './ToDo';
 function App() {
   return (
     <>
-
       <h1>Mesbah Ghalib</h1>
-      <ToDo></ToDo>
+      <ToDo task="Buy groceries"></ToDo>
+      {/*// destructuring kore ToDo({task}) function e disi*/ }
       <Person></Person>
       <Person></Person>
       <Sports></Sports>
