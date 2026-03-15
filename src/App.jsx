@@ -1,9 +1,11 @@
 import './App.css';
 import ToDo from './ToDo';
+import Players from './players';
 
 function App() {
   return (
     <>
+      <Players className="student"></Players>
       <h1>Mesbah Ghalib</h1>
       <ToDo task="Buy groceries"></ToDo>
       {/*// destructuring kore ToDo({task}) function e disi*/ }
